@@ -1,0 +1,80 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+	<title>Winter Website</title>
+    <style>
+    	body {
+        	height: 100vh;
+            overflow: hidden;
+            text-align: center;
+            font-family: comic sans ms;
+            color: #00FFFF;
+            background: #191970;
+        }
+        
+        img {
+        	width: 200px;
+        }
+        
+        .snowflake {
+        	 position: absolute;
+             font-size: 30px;
+             top: -30px;
+             animation: fall linear infinite
+        }
+        
+       @keyframes fall {
+        	0% {
+            	transform: translateY(0);
+            }
+            100% {
+            	transform: translateY(100vh);
+            }
+        }
+            
+        .snowflake:nth-child(1) {
+        	left: 10%;
+            animation-duration: 7s;
+        }
+        .snowflake:nth-child(2) {
+        	left: 25%;
+            animation-duration: 4s;
+        }
+        .snowflake:nth-child(3) {
+        	left: 40%;
+            animation-duration: 2s;
+        }
+        .snowflake:nth-child(4) {
+        	left: 55%;
+            animation-duration: 6s;
+        }
+        .snowflake:nth-child(5) {
+        	left: 70%;
+            animation-duration: 5s;
+        }
+        .snowflake:nth-child(6) {
+        	left: 85%;
+            animation-duration: 3s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="snowflake">❄️</div>
+    <div class="snowflake">❄️</div>
+    <div class="snowflake">❄️</div>
+    <div class="snowflake">❄️</div>
+    <div class="snowflake">❄️</div>
+    <div class="snowflake">❄️</div>
+    
+	<h1>Merry Christmas and a Happy New Year!</h1>
+    <h2>Hope you have a great Winter Break :)</h2>
+    <p>Here's a Google activity in case you're bored ;) </p>
+    <a href="https://santatracker.google.com/">Google Christmas Doodle</a>
+    <img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/South_Coast_Plaza_%282013%29_01.jpg/800px-South_Coast_Plaza_%282013%29_01.jpg">
+	<br>
+</body>
+
+</html>
